@@ -1,10 +1,69 @@
 body{
-    background-color: #ff7200;
+    color: #ff7200;
     font-family: 'Times New Roman', Arial, sans-serif;
     text-align: center;
+    padding: 0px;
+    margin: 0px;
+    background-color: #070707;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-image: url(./img/OIP.jpg);
 }header{
-    background-color: #333;
+    background-image: url(./img/cover.webp);
     color: #fff;
     padding: 20px;
     
+}nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+}
+
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+} nav ul button{
+    color:#ff7200
+}
+
+nav ul button a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    margin: 50px;
+    padding: 20px;
+    background: rgb(48, 41, 42);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #070707;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}@media (max-width: 600px) {
+    section {
+        margin: 20px;
+        padding: 15px;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
 }
